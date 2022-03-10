@@ -27,6 +27,3 @@
     <br />
     <asp:Button ID="Button1" runat="server" Text="Click here to see which one you selected" OnClick="Button1_Click" />
 </asp:Content>
-
-<div class="extra-groot">Welkom!</div>
-<asp:Label ID="lbInstructie" runat="server" CssClass="extra-groot" Text="Welkom!" />
