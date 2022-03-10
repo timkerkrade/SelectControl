@@ -5,8 +5,8 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
     <div class="jumbotron">
-        <h1>ComboBox</h1>
-        <p class="lead">Example ComboBox</p>
+        <h1>Eurocalculator</h1>
+        <p class="lead">hark maar binnen!</p>
     </div>
 
     <div class="row">
