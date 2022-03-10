@@ -24,6 +24,15 @@ namespace SelectControl
         protected global::System.Web.UI.UpdatePanel upEmail;
 
         /// <summary>
+        /// tbUurtarief control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox tbUurtarief;
+
+        /// <summary>
         /// Button1 control.
         /// </summary>
         /// <remarks>
@@ -31,5 +40,14 @@ namespace SelectControl
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button Button1;
+
+        /// <summary>
+        /// lbResult control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lbResult;
     }
 }

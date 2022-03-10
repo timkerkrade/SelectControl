@@ -18,5 +18,8 @@
     </div>
     <br />
     <br />
-    <asp:Button ID="Button1" runat="server" Text="Click here to see which one you selected" OnClick="Button1_Click" />
+    Tarief per uur: <asp:TextBox ID="tbUurtarief" runat="server"></asp:TextBox>
+    <asp:Button ID="Button1" runat="server" Text="GO!" OnClick="Button1_Click" />
+    <br /><br />
+    <b><asp:Label ID="lbResult" runat="server"></asp:Label></b>
 </asp:Content>
