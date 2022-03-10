@@ -169,8 +169,6 @@
       <DependentUpon>About.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="BusinessObjects\EmailAddress.cs" />
-    <Compile Include="BusinessObjects\EmailAdressRepo.cs" />
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -213,6 +211,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="BusinessObjects\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -224,12 +223,6 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Controls\Controls.csproj">
-      <Project>{11486444-739d-472e-ae0f-5a6e46b9775b}</Project>
-      <Name>Controls</Name>
-    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
