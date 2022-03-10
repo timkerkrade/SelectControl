@@ -20,7 +20,7 @@ namespace SelectControl
             {
                 var startTime = new DateTime(2022, 03, 10, 9, 0, 0);
                 var ts = DateTime.Now - startTime;
-                lbResult.Text = "Dit hebben we al: EUR " + ( ts.TotalMinutes * (1200 * 25 / (8 * 60))).ToString();
+                lbResult.Text = "Dit hebben we al: EUR " + ( ts.TotalMinutes * (1200 * tarief / (8 * 60))).ToString();
             }
         }
     }
